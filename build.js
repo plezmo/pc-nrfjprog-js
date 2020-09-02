@@ -53,7 +53,6 @@ function build(debug, target)
         debug,
         preferGnu: true,
         target,
-        generator,
     };
 
     if (process.platform === 'win32' && target !== 'tidy') {
